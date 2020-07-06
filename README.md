@@ -11,5 +11,8 @@ Execute this script with:
 
 The install script will load the required python and config script and will also add a crontab, you will need to update your config file to look for the proper GitHub account and repository (next update will add secure repository login capabilities):
 
-![confog.json file example](./img/config.png)
+![config.json file example](./img/config.png)
 
+Now this script will run automatically, update the .tgz files created in the Web Based Management >> Package Server >> Firmware Backup.  
+
+![backup firmware in WBM](./img/wbm.png)
