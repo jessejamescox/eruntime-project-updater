@@ -16,3 +16,10 @@ The install script will load the required python and config script and will also
 Now this script will run automatically, update the .tgz files created in the Web Based Management >> Package Server >> Firmware Backup.  
 
 ![backup firmware in WBM](./img/wbm.png)
+
+Use this tarballed file in your GitHub release, script will look for release tag changes and update
+
+![new release in GitHib repo](./img/release.png)
+
+After you update the release your changes will be made within 5 minutes.  If yoou need to roll the project back, you can simple mark the last release as "pre-release".
+
