@@ -19,7 +19,7 @@ rm ${NAME}
 #write out current crontab
 crontab -l > mycron
 #echo new cron into cron file
-echo "5 * * * * python /etc/rt_updater/rt_updater_v0.0.1.py >/dev/null 2>&1" >> mycron
+echo "* * * * * python /etc/rt_updater/rt_updater_v0.0.1.py >/dev/null 2>&1" >> mycron
 #install new cron file
 crontab mycron
 rm mycron
